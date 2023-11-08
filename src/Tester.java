@@ -103,5 +103,7 @@ public class Tester {
         System.out.println("Is the queue empty?\nAns: "+queue.isEmpty());
         x = array[array.length-1];
         System.out.println("Distance of "+x+" from the head of the queue: "+queue.search(x));
+
+        sc.close();
     }
 }
